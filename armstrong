@@ -1,0 +1,21 @@
+public class armstrong {
+		public static void main(String [] args) {
+			int a=154;
+			int rem,result=0;
+			int b=a;
+			
+			while(a>0){
+	        rem=a%10;
+	        result=(rem*rem*rem)+result;
+	        a=a/10;
+	        b=a;
+			}
+	        if (b==a)
+	        {
+	        	System.out.println("the given number is ARMSTRONG");
+	        }
+	        else {
+	        	System.out.println("the given number is NOT ARMSTORNG");
+	        }
+		}
+}
