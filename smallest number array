@@ -1,0 +1,15 @@
+public class smallestElement {
+	public static void main(String[] args) {
+		int b[]= {48,12,90,5,82,13};
+		int min=b[0];
+		{
+			for(int i=0;i<b.length;i++)
+	
+				if(b[i]<min)
+					min=b[i];
+		}
+		System.out.println("The smallest Element is:" +min );
+	}
+	
+
+}
